@@ -1,6 +1,6 @@
 baseURL = "https://cloudlumberjack.com"
 languageCode = "en-us"
-theme = "hugo-winston-theme"
+theme = "PaperMod"
 themesDir = "themes"
 #title = "CloudLumberjack"
 paginate = 10
