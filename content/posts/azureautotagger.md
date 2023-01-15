@@ -1,8 +1,39 @@
 ---
-title: Serverless tagging with Event Grid and Azure Functions
+title: "Serverless tagging with Event Grid and Azure Functions"
 date: 2021-03-01
-description: Quickly deploy a serverless solution using Event Grid and Functions to automate tagging of Azure resources with last modified data.
-image: images/autotagger/autotagger-logo.png
+# weight: 1
+# aliases: ["/first"]
+tags: ["azure"]
+author: "Me"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+description: "Quickly deploy a serverless solution using Event Grid and Functions to automate tagging of Azure resources with last modified data."
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "/images/autotagger/autotagger-logo.png" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 
 Azure AutoTagger is a lightweight, low-cost serverless solution that can easily be deployed to an Azure subscription. Once deployed Azure AutoTagger monitors for `ResourceWriteSucess` events within the subscription and triggers an Azure Function to automatically apply a `LastModifiedTimestamp` and `LastModifiedBy` tag. Any organization should develop and implement it's own tagging strategy ([Azure's Cloud Adoption Framework is a great start](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-tagging)). This solution can be a complimentary piece to a more comprehensive tagging strategy, and can be useful when deployed to test/development/sandbox subscriptions where resources *sometimes* have a habit of sticking around longer than they were intended.

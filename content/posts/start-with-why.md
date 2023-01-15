@@ -1,8 +1,39 @@
 ---
-title: Start with why
-description: Why am I writing this blog?
+title: "Start with why"
 date: 2020-10-24
-
+# weight: 1
+# aliases: ["/first"]
+tags: ["git"]
+author: "Me"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+description: "Why am I writing this blog?"
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "/images/rebase/rebase_logo.png" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 
 Nearly a year ago I read Don Jones' book "Be the Master". It's not available any longer as he's combining two of his books into a larger narrative. There was an excerpt in the book that really struck me as such a poignant explanation of teaching and helping others in our technical community.

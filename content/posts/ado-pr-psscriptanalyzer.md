@@ -1,10 +1,40 @@
 ---
-title: Azure DevOps PowerShell code analysis with Pull Request comments
-description: Get static code analysis feedback on your PowerShell code hosted in Azure DevOps, using pipelines to create inline file comments within your pull requests.
+title: "Azure DevOps PowerShell code analysis with Pull Request comments"
 date: 2020-11-01
-image: /images/ado-analyzer/ado-analyzer-social2.png
+# weight: 1
+# aliases: ["/first"]
+tags: ["git"]
+author: "Me"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+description: "Get static code analysis feedback on your PowerShell code hosted in Azure DevOps, using pipelines to create inline file comments within your pull requests."
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "/images/ado-analyzer/ado-analyzer-social2.png" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
-
 
 If you are using PowerShell you should be storing your code in a code repository. [GitHub](https://github.com) and [Azure DevOps](https://dev.azure.com) are great choices, but really any git repo will do. This isn't an article about why you should be using version control, I feel that's been covered at great length in the community already.
 

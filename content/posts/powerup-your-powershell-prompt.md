@@ -1,8 +1,39 @@
 ---
-title: PowerUp your PowerShell prompt
-description: Improve your PowerShell experience with integrated command history and prediction, git status, file icons, fonts, and more.
+title: "PowerUp your PowerShell prompt"
 date: 2020-12-19
-image: /images/shell/shell1.png
+# weight: 1
+# aliases: ["/first"]
+tags: ["powershell"]
+author: "Me"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+description: "Improve your PowerShell experience with integrated command history and prediction, git status, file icons, fonts, and more."
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "/images/shell/shell1.png" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 
 One of the great things about PowerShell is that is so extensible and customizable. When sharing my screen with co-workers and customers a frequent exchange happens:

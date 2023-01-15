@@ -1,8 +1,39 @@
 ---
-title: Revert Azure Virtual Machine with Snapshots
+title: "Revert Azure Virtual Machine with Snapshots"
 date: 2021-04-26
-description: Learn how to take a snapshot of an Azure virtual machine OS disk, and then quickly revert the machine back to the snapshot using Azure PowerShell.
-image: images/az-snapshots/AzureDiskSnapshot.png
+# weight: 1
+# aliases: ["/first"]
+tags: ["azure"]
+author: "Me"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+description: "Learn how to take a snapshot of an Azure virtual machine OS disk, and then quickly revert the machine back to the snapshot using Azure PowerShell."
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "/images/az-snapshots/AzureDiskSnapshot.png" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 
 I recently prepared a Lightning Demo for the [2021 PowerShell + DevOps Global Summit](https://events.devopscollective.org/event/powershell-devops-global-summit-2021/), which thankfully was a pre-recorded session and not live. This gave me the chance to practice, and rehearse, and fine tune my content. I used a virtual machine in Azure to perform the demo which gave me two great benefits.

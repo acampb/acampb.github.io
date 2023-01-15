@@ -1,8 +1,39 @@
 ---
-title: GitHub Actions now with Manual Approvals
-description: Implement deployment gating with manual approvals in GitHub Actions, now available with the Environments feature.
+title: "GitHub Actions now with Manual Approvals"
 date: 2021-01-06
-image: /images/gh-approvals/notification1.png
+# weight: 1
+# aliases: ["/first"]
+tags: ["git", "github"]
+author: "Me"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+description: "Implement deployment gating with manual approvals in GitHub Actions, now available with the Environments feature."
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "/images/gh-approvals/notification1.png" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 
 I've loved GitHub Actions since they were released, but the one piece I always felt was missing was some kind of gating or more control around deployments. Now we can add manual approval requirements to our workflows through GitHub's new **Environments** configurations. Environments also support environment specific secrets in additional to repository-wide secrets.

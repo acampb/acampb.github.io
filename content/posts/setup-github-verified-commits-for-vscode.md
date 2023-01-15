@@ -1,8 +1,39 @@
 ---
-title: Setup GitHub verified commits for VSCode
-description: Want to see that sweet Verified status on your GitHub commit history? This guide walks through how to setup and configure everything needed on a Windows system!
+title: "Setup GitHub verified commits for VSCode"
 date: 2020-10-25
-image: /images/gh-verified/gh-verified-social.png
+# weight: 1
+# aliases: ["/first"]
+tags: ["git", "github"]
+author: "Me"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+description: "Want to see that sweet Verified status on your GitHub commit history? This guide walks through how to setup and configure everything needed on a Windows system!"
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "/images/gh-verified/gh-verified-social.png" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 
 Want to see that sweet :heavy_check_mark: **Verified** status on your GitHub commit history? This guide walks through how to setup and configure everything needed on a Windows system!
