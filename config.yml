@@ -87,10 +87,10 @@ params:
   analytics:
     google:
       SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+    #bing:
+      #SiteVerificationTag: "XYZabc"
+    #yandex:
+      #iteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -132,7 +132,7 @@ markup:
   highlight:
     noClasses: false
     # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    style: monokai

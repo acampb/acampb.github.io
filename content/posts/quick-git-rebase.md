@@ -1,8 +1,39 @@
 ---
-title: Quick git rebase
-description: Use git rebase to update your feature branch from main and prevent merge conflicts.
+title: "Quick git rebase"
 date: 2022-01-17
-image: images/rebase/rebase_logo.png
+# weight: 1
+# aliases: ["/first"]
+tags: ["git"]
+author: "Me"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+description: "Use git rebase to update your feature branch from main and prevent merge conflicts."
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "/images/rebase/rebase_logo.png" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/<path_to_repo>/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 
 Using git from the command line has always been a bit intimidating, with `git rebase` being the most challenging for me. I've typically put off learning how to do it properly and just relied on `git merge` to bring feature branches up to date with main and resolve merge conflicts. I finally had some time to sit down and learn it, and of course it's really not that bad! I created this quick demo to show how simple it can be.
